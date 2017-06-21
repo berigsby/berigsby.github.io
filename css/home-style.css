@@ -1,0 +1,150 @@
+﻿*
+{
+    font-family: Daimler CS;
+    color: White;
+}
+body
+{
+    background-color: Black;
+}
+
+.header
+{
+    font-size: 30px;
+    font-family: Daimler CSPro;
+    margin-bottom: 15px;
+    width: 700px;
+    z-index: 2;
+}
+
+a
+{
+    text-decoration: none;
+}
+
+.navigation
+{
+    border-right: 2px solid white;
+    min-width: 30px;
+    position: fixed;
+    padding: 0;
+    text-align: left;
+    display: inline-block;
+}
+
+ul, .navigation
+{
+    top: 77px;
+    left: 10px;
+    height: 146px;
+}
+
+#nav
+{
+    display: inline-block;
+    text-align: left;
+    list-style-type: none;
+    padding: 4px;
+    top: 107px;
+    left: 13px;
+    margin-top: 0px;
+    width: 90px;
+    height: 131px;
+    margin-left: 0px;
+}
+
+.allKpis
+{
+    position: relative;
+    width: 80%;
+    left: 10%;
+    min-width: 800px;
+}
+
+#logo
+{
+    height: 275px;
+    width: 400px;
+    position: relative;
+    left: 60%;
+    bottom: 50px;
+    margin-left: 100px;
+}
+
+.kpiLeft
+{
+    width: 45%;
+    height: 400px;
+    position: relative;
+    margin-bottom: 40px;
+    float: left;
+}
+
+.kpiRight
+{
+    width: 45%;
+    height: 400px;
+    position: relative;
+    left: 7%;
+    margin-bottom: 40px;
+    float: left;
+}
+
+#currentDate
+{
+    margin-left: 20px;
+}
+
+.footer
+{
+    width: 100%;
+    clear: both;
+}
+
+#kpi-3
+{
+    border: 3px solid white;
+    width: 45%;
+    height: 400px;
+    position: relative;
+    margin-bottom: 40px;
+    float: left;
+}
+
+th
+{
+    color: Black;
+}
+
+thead
+{
+    background-color: Teal;
+}
+
+tbody
+{
+    background-color: White;
+}
+
+.statusLeft
+{
+    float: left;
+    color: Green;
+    position: absolute;
+    background-color: Green;
+    width: 20px;
+    height: 20px;
+    z-index: 10;
+}
+
+.statusRight
+{
+    float: left;
+    color: Green;
+    position: absolute;
+    background-color: Green;
+    left: 52%;
+    width: 20px;
+    height: 20px;
+    z-index: 10;
+}
